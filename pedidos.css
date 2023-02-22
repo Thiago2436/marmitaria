@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input , select{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+body{
+    background-color: #e8d168;
+}
+input, select {
+    background-color: #f5f4f2;
+    color: #3D5A80;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+}
