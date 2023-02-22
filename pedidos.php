@@ -30,6 +30,7 @@
         </select>
         <label for="quantity">Quantidade:</label> 
         <input type="number" id="quantity" name="quantity" /> 
+        <input type="submit" name="btnpedidos" value="Confirmar"><br><br>
         </div> 
     </form>
 </body> 

@@ -13,9 +13,9 @@
     <h1>Marmitaria Admin</h1>
     <div>
       <ul>
-        <li><a href="#usuarios">Usuarios</a></li>
-        <li><a href="pedidos.php">Pedidos</a></li>
-        <li><a href="#clientes">Clientes</a></li>
+        <li><a href="#usuarios"><h1>Usuarios</h1></a></li>
+        <li><a href="pedidos.php"><h1>Pedidos</h1></a></li>
+        <li><a href="#clientes"><h1>Clientes</h1></a></li>
         </ul>
       </div>
       <div id="mapa-localizacao">
