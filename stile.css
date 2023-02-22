@@ -1,0 +1,38 @@
+body {
+    background-color: #ffcc33dc;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000000;
+}
+input {
+    margin: 10px 0px; 
+    padding: 5px 10px;
+    font-size: 1em;
+    color: #FF0000;
+    background-color: #ffad33b4;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    font-weight: bold;
+    background-color: #009900;
+    color: #FFFFFF;
+}
+@media (max-width: 450px) {
+    form {
+        max-width: 90%;
+    }
+    input, input[type="submit"] {
+        width: 100%; 
+    }
+}
