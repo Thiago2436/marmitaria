@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-image: url("[ link da imagem]");
+    background-color: #F4A460;
+    color: #FFE4B5;
+    text-decoration: none;
+    font-family: Comic Sans MS, Helvetica Neue, Hel Vetica, Arial, sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+    ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    ul li a {
+        display: block;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        color: #FFE4B5;
+    }
+    
+    ul li a:hover {
+        background-color: #000;
+        color: #FFE4B5;
+    }
+}

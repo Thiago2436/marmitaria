@@ -18,7 +18,7 @@ if (isset($_POST['usuario']) && isset($_POST['senha'])) {
   // Verifica se a consulta retornou algum resultado
   if (mysqli_num_rows($result) > 0) {
     // Usuário e senha válidos
-    header("Location: pedidos.php");
+    header("Location: adiministrativo.php");
     exit;
   } else {
     // Usuário ou senha inválidos
