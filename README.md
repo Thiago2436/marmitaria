@@ -1,5 +1,5 @@
-# marmitaria
-🍱 Sistema de Marmitaria em PHP 🍱
+# marmitaria 🍱 Sistema de Marmitaria em PHP 🍱
+
 Este é um projeto de um sistema de marmitaria desenvolvido em PHP para facilitar a gestão de pedidos e clientes de uma empresa que trabalha com entregas de refeições.
 
 Funcionalidades
