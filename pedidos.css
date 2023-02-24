@@ -1,28 +1,83 @@
-body{
-    text-align: center;
-    padding: 0;
+body {
     margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #F2ECE1;
+    color: #333333;
 }
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
 }
-input , select{
-    width: 300px;
-    padding: 10px;
-    margin: 10px;
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #F4A460;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #E6852E;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F4A460;
+    color: #fff;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
-body{
-    background-color: #e8d168;
+
+.btn:hover {
+    background-color: #E6852E;
 }
-input, select {
-    background-color: #f5f4f2;
-    color: #3D5A80;
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #FDFDFD;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
-input[type="submit"] {
-    background-color: #4CAF50;
-    color: #FFFFFF;
+
+form input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F4A460;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
 }
+
+form input[type="submit"]:hover {
+    background-color: #E6852E;
+}
+select, option {
+    font-size: 1.5rem;
+  }
